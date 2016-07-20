@@ -31,8 +31,8 @@
         echo '</figure>';      
     }
     echo '<figure height="600">';        
-    echo '<a href="index_all.php">Quieres más?</a>';
-    echo '<figcaption>~ Marbu y Agus~</figcaption>';
+    echo '<img src="img/margus.png" width="100%"/>';
+    echo '<figcaption><a href="index_all.php">Quieres más?</a></figcaption>';
     echo '</figure>'; 
 ?>
 </div>
