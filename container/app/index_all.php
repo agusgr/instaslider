@@ -31,7 +31,7 @@
     }
     echo '<figure height="600">';        
     echo '<img src="img/margus.png" width="100%"/>';
-    echo '<figcaption><a href="index_all.php">Siguientes...</a></figcaption>';
+    echo '<figcaption><a href="index_all.php"><h1>Siguientes...</h1></a></figcaption>';
     echo '</figure>'; 
 ?>
 </div>
