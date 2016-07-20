@@ -26,7 +26,7 @@
     $medias = Instagram::getTopMediasByTagName('wood');
     foreach ($medias as $key => $media) {        
         echo '<figure>';        
-        echo '<img src="'. $media->imageStandardResolutionUrl . '" height="900" width="900"/>';
+        echo '<img src="'. $media->imageStandardResolutionUrl . '" width="100%"/>';
         echo '<figcaption>'. $media->caption . '</figcaption>';
         echo '</figure>';      
     }
