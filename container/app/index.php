@@ -20,7 +20,7 @@
   <script type="text/javascript" src="lib/slick.min.js"></script>
   <script type="text/javascript" src="lib/margus.js"></script>
 
-<div id="polaroid" class="instaslider">  
+<div id="polaroid" class="instaslider">
 <?php
 
     $medias = Instagram::getTopMediasByTagName('wood');

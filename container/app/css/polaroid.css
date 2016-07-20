@@ -4,7 +4,7 @@ figure, figcaption {
 #polaroid{
 	width:100%;
 	overflow:hidden;
-	padding:50px;
+	padding:20px 10px;
 }
 #polaroid figure{
 	float:left;
@@ -28,17 +28,6 @@ figure, figcaption {
 	transform: rotate(-1deg);
 	-webkit-backface-visibility:hidden; /*prevent rotated text being jagged in Chrome and Safari*/
 }
-#polaroid figure:nth-child(even) {
-	-webkit-transform:rotate(2deg);
-	-moz-transform: rotate(2deg);
-	-o-transform: rotate(2deg);
-	-ms-transform: rotate(2deg);
-	transform: rotate(2deg);
-	-webkit-backface-visibility:hidden; /*prevent rotated text being jagged in Chrome and Safari*/
-	-webkit-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
-	-moz-box-shadow: 4px 4px 8px -4px rgba(0, 0, 0, .75);
-	box-shadow: -4px 4px 8px -4px rgba(0, 0, 0, .75);
-}
 #polaroid figure:before {
 	content: '';
 	display: block;
@@ -52,16 +41,6 @@ figure, figcaption {
 	-moz-transform: rotate(-12deg);
 	-o-transform: rotate(-12deg);
 	-ms-transform: rotate(-12deg);
-}
-#polaroid figure:nth-child(even):before {
-	left:150px;
-	top: -15px;
-	width: 55px;
-	height: 25px;
-	-webkit-transform: rotate(12deg);
-	-moz-transform: rotate(12deg);
-	-o-transform: rotate(12deg);
-	-ms-transform: rotate(12deg);
 }
 #polaroid figcaption{
 	text-align:center;
