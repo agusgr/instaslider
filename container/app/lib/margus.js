@@ -1,6 +1,6 @@
   $(document).ready(function(){
      $('.instaslider').slick({
-        infinite: true,
+        infinite: false,
   		autoplay: true,
   		autoplaySpeed: 3000
      });    
