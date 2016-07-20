@@ -30,10 +30,6 @@
         echo '<figcaption>'. $media->caption . '</figcaption>';
         echo '</figure>';      
     }
-    echo '<figure>';        
-    echo '<a href="instaslider/index_all.php">Quieres más?</a>';
-    echo '<figcaption>'. $media->caption . '</figcaption>';
-    echo '</figure>'; 
 ?>
 </div>
 </body>
