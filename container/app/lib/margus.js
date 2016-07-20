@@ -1,5 +1,7 @@
   $(document).ready(function(){
      $('.instaslider').slick({
-        infinite: true
+        infinite: true,
+  		autoplay: true,
+  		autoplaySpeed: 3000
      });    
   });
