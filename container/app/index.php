@@ -32,7 +32,7 @@
     }
     echo '<figure height="600">';        
     echo '<img src="img/margus.png" width="100%"/>';
-    echo '<figcaption><a href="index_all.php">Quieres más?</a></figcaption>';
+    echo '<figcaption><a href="index_all.php?page=0">Quieres más?</a></figcaption>';
     echo '</figure>'; 
 ?>
 </div>

@@ -22,14 +22,17 @@
 
 <div id="polaroid" class="instaslider">
 <?php
-
-    $medias = Instagram::getTopMediasByTagName('wood');
+    $medias = Instagram::getMediasByTag('wood', 50);
     foreach ($medias as $key => $media) {        
         echo '<figure>';        
         echo '<img src="'. $media->imageStandardResolutionUrl . '" width="100%"/>';
         echo '<figcaption>'. $media->caption . '</figcaption>';
         echo '</figure>';      
     }
+    echo '<figure height="600">';        
+    echo '<img src="img/margus.png" width="100%"/>';
+    echo '<figcaption><a href="index_all.php">Siguientes...</a></figcaption>';
+    echo '</figure>'; 
 ?>
 </div>
 </body>
