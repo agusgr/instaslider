@@ -18,6 +18,7 @@
   <script type="text/javascript" src="lib/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="lib/jquery-migrate-1.2.1.min.js"></script>
   <script type="text/javascript" src="lib/slick.min.js"></script>
+  <script type="text/javascript" src="lib/margus.js"></script>
 
 <div id="polaroid" class="instaslider">  
 <?php
@@ -30,17 +31,6 @@
         echo '</figure>';      
     }
 ?>
-<script type="text/javascript">
-  $(document).ready(function(){
-     $('.instaslider').slick({
-        dots: true,
-        infinite: true,
-        speed: 500,
-        fade: true,
-        cssEase: 'linear'
-     });    
-  });
-</script>
 </div>
 </body>
 </html>
