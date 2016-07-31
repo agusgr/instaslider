@@ -22,7 +22,7 @@
 
 <div id="polaroid" class="instaslider">
 <?php
-    $medias = Instagram::getMediasByTag('wood', 50);
+    $medias = Instagram::getMediasByTag('marbuyagussecasan', 50);
     foreach ($medias as $key => $media) {        
         echo '<figure>';        
         echo '<img src="'. $media->imageStandardResolutionUrl . '" width="100%"/>';
